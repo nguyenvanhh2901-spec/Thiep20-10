@@ -125,12 +125,12 @@ footer{text-align:center;color:#e7bfd2;font:12px Arial,sans-serif;padding:0 10px
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
-const SUPABASE_URL = "https://vcdqurmcgiqjjqccfcdp.supabase.co/rest/v1/";
+const SUPABASE_URL = "https://vcdqurmcgiqjjqccfcdp.supabase.co";
 const SUPABASE_KEY = "sb_publishable_ZSv2fNVGAilLR4p9lLSUUw_kVH_QBE8";
 
 const $ = id => document.getElementById(id);
 const configured =
-  !SUPABASE_URL.includes("https://vcdqurmcgiqjjqccfcdp.supabase.co/rest/v1/") &&
+  !SUPABASE_URL.includes("https://vcdqurmcgiqjjqccfcdp.supabase.co") &&
   !SUPABASE_KEY.includes("sb_publishable_ZSv2fNVGAilLR4p9lLSUUw_kVH_QBE8") &&
   window.supabase;
 
